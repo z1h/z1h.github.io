@@ -1,7 +1,7 @@
 # Z1H 语言教程
 
 <div class="row">
-	<img src="/favicon.ico" alt="logo" height="200" />
+	<img src="//z1h.zwei.ren/favicon.ico" alt="logo" height="200" />
 	<div style="margin-left: 16px;">
 <p>Z1H 是一门跨平台编程语言，它能让构造简单、可靠且高效的软件变得容易。</p>
 <p>Z1H是从2019年国庆期间由曾威人开发，后来张琪也加入了开发，并最终于2020年对外开放，并发布了v1.0.0稳定版本, 包含<strong>Windows、mac OS、Linux、Android、iOS、WebAssembly、树莓派</strong>等平台的发行版。</p>
