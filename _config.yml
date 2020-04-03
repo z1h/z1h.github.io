@@ -2,6 +2,7 @@ theme: jekyll-theme-architect
 
 title:      Z1H编程语言
 subtitle:   Z1h是一门能帮助你快速工作的编程语言, 它可以帮你搭建简单、可靠、灵活的服务.
+description: Z1h是一门能帮助你快速工作的编程语言, 它可以帮你搭建简单、可靠、灵活的服务.
 date:       2019-10-01
 author:     Zwei.Ren
 header-img: https://z1h.zwei.ren/favicon.ico 
@@ -9,6 +10,7 @@ tags:
     - 编程语言
     - HTTP服务
 
+show_downloads: true 
 
 # Sidebar settings
 sidebar: true 
