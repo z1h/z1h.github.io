@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
+# Z1H 语言教程
+Z1H 是一门跨平台编程语言，它能让构造简单、可靠且高效的软件变得容易。
 
-You can use the [editor on GitHub](https://github.com/z1h/z1h.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Z1H是从2019年国庆期间由曾威人开发，后来张琪也加入了开发，并最终于2020年对外开放，并发布了v1.0.0稳定版本, 包含**Windows、mac OS、Linux、Android、iOS、WebAssembly、树莓派**等平台的发行版
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Z1H 语言特色
 
-### Markdown
+- 简洁、快速、安全
+- 并行、有趣、灵活
+- 跨平台, 支持几乎所有的服务器、PC、移动设备系统, 以及部分IoT系统
+- 语法由诸多其他语言发展而来, 包括Go、Java、JavaScript、Python等等
+- 解释器由Go实现(Rust版本正在开发中), 确保了高效、支持高并发
+- 支持所有Go的系统标准库
+- 支持所有用Go开发的第三方库
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Z1H 语言用途
 
-```markdown
-Syntax highlighted code block
+Z1H 语言被设计成一门主要应用于搭载 Web 服务器，存储集群或类似用途的巨型中央服务器的系统编程语言。
 
-# Header 1
-## Header 2
-### Header 3
+对初级程序员而言，是一种伟大的语言，它支持广泛的应用程序开发，从简单的文字处理到http服务再到游戏。
 
-- Bulleted
-- List
+对于许多领域而言，Z1H 语言无疑比大多数其它语言有着更高的开发效率。它提供了灵活的开发语法以及海量并行的支持，这尤其对于想要快速开发http服务后端的团队和个人而言是再好不过了。
 
-1. Numbered
-2. List
+## 第一个 Z1H 程序
 
-**Bold** and _Italic_ and `Code` text
+接下来我们来编写第一个 Z1H 程序 hello.z1h（Z1H 语言源文件的扩展是 .z1h），代码如下：
 
-[Link](url) and ![Image](src)
+```
+print("Hello World!")
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+要执行 Z1H 语言代码可以使用 **z1h -run** 命令。
 
-### Jekyll Themes
+执行以上代码输出:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/z1h/z1h.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```
+$ z1h -run hello.z1h 
+"Hello World!"
+```
 
-### Support or Contact
+## HTTP服务
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+如果你已经有其它语言的开发经验, 建议直接前往[进阶-HTTP服务](020.html)体验Z1H开发HTTP后端服务的便利
