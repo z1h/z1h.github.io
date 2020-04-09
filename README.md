@@ -1,6 +1,25 @@
 # Z1H 语言教程
 
-
+<script type="text/javascript">
+	window.addEventListener('load', function(){
+		[].slice.call(document.querySelectorAll('a')).forEach(function(e){
+			switch (e.innerText) {
+				case 'View project on\nGitHub':
+					e.innerHTML = '<small>响应慢? 前往</small> 大陆站点';
+					break;
+				case 'Download\n.zip file':
+					e.innerHTML = '<small>大陆站</small>下载';
+					break;
+				case 'Download\n.tar.gz file':
+					e.innerHTML = '<small>Github站</small>下载';
+					break;
+				case 'GitHub Pages':
+					e.parentElement.style.display = "none";
+					break;
+			}
+		});
+	});
+</script>
 <div style="display: flex; flex-direction: row;">
 	<img src="/favicon.ico" alt="logo" height="200" />
 	<div style="margin-left: 16px;">
@@ -45,6 +64,12 @@ $ z1h -run hello.z1h
 "Hello World!"
 ```
 
+## 下载和更多教程
+
+
+[前往大陆站点](https://z1h.zwei.ren/)
+
+
 ## HTTP服务
 
-如果你已经有其它语言的开发经验, 建议直接前往[进阶-HTTP服务](020.html)体验Z1H开发HTTP后端服务的便利
+如果你已经有其它语言的开发经验, 建议直接前往[进阶-HTTP服务](https://z1h.zwei.ren/doc/020.html)体验Z1H开发HTTP后端服务的便利
