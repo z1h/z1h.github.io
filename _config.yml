@@ -18,9 +18,9 @@ github:
   is_project_page: true
   repository_url: https://z1h.zwei.ren/
   repository_name: Z1H Lang
-  is_user_page: true
+  # is_user_page: true
   owner_url: https://zwei.ren/
-  repository_name: ZweiRen
+  owner_name: ZweiRen
   zip_url: https://z1h.zwei.ren/download
   tar_url: https://github.com/z1h/z1h.github.io/releases
 
