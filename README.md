@@ -7,6 +7,9 @@
 				case 'View project on\nGitHub':
 					e.innerHTML = '<small>响应慢? 前往</small> 大陆站点';
 					break;
+				case 'View project on GitHub':
+					e.innerHTML = '前往大陆站点';
+					break;
 				case 'Download\n.zip file':
 					e.innerHTML = '<small>大陆站</small>下载';
 					break;
@@ -43,7 +46,7 @@
 
 Z1H 语言被设计成一门主要应用于搭载 Web 服务器，存储集群或类似用途的巨型中央服务器的系统编程语言。
 
-对初级程序员而言，是一种伟大的语言，它支持广泛的应用程序开发，从简单的文字处理到http服务再到游戏。
+对初级程序员而言，是一种非常容易上手且功能强大的语言，它支持广泛的应用程序开发，从简单的文字处理到http服务再到游戏。
 
 对于许多领域而言，Z1H 语言无疑比大多数其它语言有着更高的开发效率。它提供了灵活的开发语法以及海量并行的支持，这尤其对于想要快速开发http服务后端的团队和个人而言是再好不过了。
 
