@@ -70,9 +70,9 @@ $ z1h -run hello.z1h
 ## 下载和更多教程
 
 
-[前往大陆站点](https://z1h.zwei.ren/)
+[前往大陆站点](https://z1h.org/)
 
 
 ## HTTP服务
 
-如果你已经有其它语言的开发经验, 建议直接前往[进阶-HTTP服务](https://z1h.zwei.ren/doc/020.html)体验Z1H开发HTTP后端服务的便利
+如果你已经有其它语言的开发经验, 建议直接前往[进阶-HTTP服务](https://z1h.org/doc/020.html)体验Z1H开发HTTP后端服务的便利

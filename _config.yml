@@ -7,7 +7,7 @@ subtitle:   Z1h是一门能帮助你快速工作的编程语言, 它可以帮你
 description: Z1h是一门能帮助你快速工作的编程语言, 它可以帮你搭建简单、可靠、灵活的服务.
 date:       2019-10-01
 author:     Zwei.Ren
-header-img: https://z1h.zwei.ren/favicon.ico 
+header-img: https://z1h.org/favicon.ico 
 tags:
     - 编程语言
     - HTTP服务
@@ -16,16 +16,16 @@ show_downloads: true
 
 github:
   is_project_page: true
-  repository_url: https://z1h.zwei.ren/
+  repository_url: https://z1h.org/
   repository_name: Z1H Lang
   is_user_page: false
   owner_url: https://zwei.ren/
   owner_name: ZweiRen
-  zip_url: https://z1h.zwei.ren/download
+  zip_url: https://z1h.org/download
   tar_url: https://github.com/z1h/z1h.github.io/releases
 
 # Sidebar settings
 sidebar: true 
 sidebar-about-description: "Z1H编程语言"
-sidebar-avatar: https://z1h.zwei.ren/favicon.ico 
+sidebar-avatar: https://z1h.org/favicon.ico 
 
